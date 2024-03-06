@@ -1,0 +1,1297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+}
+.title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    width: 570px;
+    margin: 0 auto;
+}
+
+/* =======================================
+        navbar  start
+========================================== */
+nav{
+    border-bottom: 2px solid rgba(198, 154, 7,.30);
+    z-index: 2;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .4s;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    transition: all linear .4s;
+    position: relative;
+}
+.fixedmenu{
+    background: #000;
+}
+nav ul li a:after{
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width:0%;
+    height: 4px;
+    background: #c69a07;
+    content: '';
+    transition: all linear.4s;
+
+}
+nav ul li a:hover{
+    color: #c69a07;
+}
+nav ul li a:hover:after{
+    width: 95%;
+}
+
+/* =======================================
+        navbar  end
+========================================== */
+/* =======================================
+        banner  start
+========================================== */
+#banner-part{
+    margin-top: -100px;
+}
+#banner-part .banner-slider .banner{
+    background: url(../images/banner1\(2\).jpg) no-repeat center;
+    background-size:cover;
+    text-align: center;
+
+} 
+#banner-part .banner-slider .banner-2{
+    background: url(../images/banner.png) no-repeat center;
+} 
+#banner-part .banner-slider .banner-3{
+    background: url(../images/banner2.jpg) no-repeat center ;
+} 
+#banner-part .banner-slider .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    padding-top:180px;
+    padding-bottom: 150px;
+    
+}
+#banner-part .banner-slider .banner .overlay h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner-part .banner-slider .banner .overlay h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #c69a07;
+    text-transform: uppercase;
+}
+#banner-part .banner-slider .banner .overlay p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 530px;
+}
+#banner-part .banner-slider .banner .overlay a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    border: 1px solid #c69a07;
+    background: #c69a07;
+    padding: 5px 10px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    transition: all linear .4s;
+}
+
+#banner-part .banner-slider .banner .overlay a:hover{
+    background: transparent;
+    border-color:#fff;
+    color: #fff;
+}
+
+#banner-part .prev{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    z-index: 2;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all linear .4s;
+}
+#banner-part .next{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all linear .4s;
+}
+#banner-part .prev:hover{
+    color: #c69a07;
+}
+#banner-part .next:hover{
+    color: #c69a07;
+}
+
+/* =======================================
+        banner end
+========================================== */
+/* =======================================
+        banner bottom  start
+========================================== */
+#banner-bottom {
+	background: #fff;
+	height: 200px;
+	transform: skewx(-85deg);
+	transform-origin: left bottom;
+	position: relative;
+	top: -195px;
+}
+/* =======================================
+        banner bottom  end
+========================================== */
+/* =======================================
+        about start
+========================================== */
+#about-part{
+    margin-top: -200px;
+}
+#about-part .item {
+	text-align: center;
+	padding: 40px 30px;
+	position: relative;
+	background: #eeeeee;
+	border-radius: 5px;
+	filter: drop-shadow(0 0 0.75rem transparent);
+	transition: all linear .4s;
+	bottom: 40px;
+}
+#about-part .item h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+#about-part .item p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    
+}
+#about-part .item i{
+    position: absolute;
+    bottom: -49px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    transition: all linear .4s;
+}
+#about-part .item:hover{
+    filter: drop-shadow(0 0 0.75rem #111);
+}
+#about-part .item:hover i{
+    color: #c69a07;
+}
+#about-part .shape{
+    width: 40px;
+    height:40px;
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%) rotate(45deg);
+}
+#about-part .item2 {
+	text-align: center;
+	padding: 40px 30px;
+	position: relative;
+	background: #eeeeee;
+	border-radius: 5px;
+	filter: drop-shadow(0 0 0.75rem transparent);
+	transition: all linear .4s;
+	top: 41px;
+}
+#about-part .item2 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+#about-part .item2 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+     
+}
+#about-part .item2 i {
+	position: absolute;
+	top: -48px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #000;
+	transition: all linear .4s;
+}
+#about-part .item2:hover{
+    filter: drop-shadow(0 0 0.75rem #111);
+}
+#about-part .item2:hover i{
+    color: #c69a07;
+}
+#about-part .item2 .shape{
+    width: 40px;
+    height:40px;
+    background: #eeeeee;
+    position: absolute;
+    top: -39px;
+    left: 50%;
+    transform: translate(-50%,50%) rotate(45deg);
+}
+
+#about-part .left-item{
+    display: flex;
+    align-items: center;
+}
+
+#about-part .item3 {
+	text-align: right;
+	padding: 40px 30px;
+	position: relative;
+	background: #eeeeee;
+	border-radius: 5px;
+	margin-right: 17px;
+	filter: drop-shadow(0 0 0.75rem transparent);
+	transition: all linear .4s;
+	left: 22px;
+}
+#about-part .item3 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#about-part .item3 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+}
+#about-part .item3 i{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    color: #000;
+    transition: all linear .4s;
+}
+#about-part .item3:hover{
+    filter: drop-shadow(0 0 0.75rem #111);
+}
+#about-part .item3:hover i{
+    color: #c69a07;
+}
+#about-part .item3 .shape3{
+    width: 40px;
+    height:40px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%) rotate(45deg);
+}
+
+#about-part .item4 {
+	text-align: left;
+	padding: 40px 30px;
+	position: relative;
+	background: #eeeeee;
+	border-radius: 5px;
+	margin-left: -29px;
+	filter: drop-shadow(0 0 0.75rem transparent);
+	transition: all linear .4s;
+	left: 23px;
+}
+#about-part .item4 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+#about-part .item4 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+}
+#about-part .item4 i{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+    color: #000;
+    transition: all linear .4s;
+}
+#about-part .item4:hover{
+    filter: drop-shadow(0 0 0.75rem #111);
+}
+#about-part .item4:hover i{
+    color: #c69a07;
+}
+#about-part .item4 .shape4{
+    width: 40px;
+    height:40px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+#about-part .item-round {
+	width: 370px;
+	height: 370px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin: 40px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+#about-part .item-round .img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+#about-part .item-round .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.3);
+}
+
+/* =======================================
+        about end
+========================================== */
+/* =======================================
+       portfolio top start
+========================================== */
+#portfolio-top {
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: -175px;
+}
+
+/* =======================================
+       portfolio top end
+========================================== */
+/* =======================================
+       portfolio start
+========================================== */
+#portfolio-part{
+    margin-top: -22px;
+    background: url(../images/portimg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#portfolio-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.8);
+    padding: 150px 0;
+}
+#portfolio-part .overlay i{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#portfolio-part .title h2{
+    color: #fff;
+}
+#portfolio-part .title p{
+    color: #fff;
+}
+#portfolio-part .item:nth-child(even){
+    display: flex;
+    flex-direction: column-reverse;
+}
+#portfolio-part .item .img{
+    margin-bottom: 25px;
+    position: relative;
+}
+#portfolio-part .item .img img{
+    width: 100%;
+}
+#portfolio-part .item .img .overlay-img{
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0,.7);
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .4s;
+}
+#portfolio-part .item .img:hover .overlay-img{
+    height: 100%;
+    opacity: 1;
+}
+
+
+
+/* =======================================
+       portfolio end
+========================================== */
+/* =======================================
+       portfolio bottom start
+========================================== */
+
+#portfolio-bottom{
+	background: #fff;
+	height: 200px;
+	transform: skewx(-86deg);
+	transform-origin: left bottom;
+	position: relative;
+	top: -200px;
+}
+/* =======================================
+       portfolio bottom end
+   ======================================= */
+/* =======================================
+       service start
+   ======================================= */
+#service-part{
+    margin-top: -100px;
+    position: relative;
+} 
+#service-part .line{
+    width: 2px;
+    height: 642px;
+    background: url(../images/line.png);
+    position: absolute;
+    top: 212px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+#service-part .service-slider{
+    margin-top: 150px;
+}
+
+#service-part .service{
+    width: 100%;
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+#service-part .service:nth-child(odd){
+    flex-direction: row-reverse;
+}
+#service-part .service .title{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+#service-part .service .title h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+#service-part .service:nth-child(odd) .title{
+    justify-content: flex-start;
+}
+#service-part .service .img{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#service-part .service .img .round{
+    width: 70px;
+    height: 70px;
+    background: #eeeeee;
+    border-radius: 50%;
+    transition: .4s;
+}
+#service-part .slick-center .img .round{
+    background: #c69a07;
+    transform: scale(1.5);
+}
+#service-part .service .img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+}
+#service-part .service .details{
+    width: 40%;
+    position: relative;
+}
+#service-part .service .details .shape{
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+#service-part .service:nth-child(odd) .details .shape{
+    left:100%;
+}
+#service-part .service .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    background: #f1f1f1;
+    padding: 20px 20px;
+}
+#service-part .prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: -82px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all linear .4s;
+}
+#service-part .next{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: -103px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all linear .4s;
+
+}
+#service-part .prev:hover{
+    background: #c69a07;
+    border:transparent;
+}
+#service-part .next:hover{
+    background: #c69a07;
+    border:transparent;
+}
+
+/* =======================================
+       service end
+========================================== */
+/* =======================================
+       tastimonial-top start
+========================================== */
+#tastimonial-top {
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: -239px;
+}
+/* =======================================
+       tastimonial-top end
+========================================== */
+/* =======================================
+       tastimonial start
+========================================== */
+ #tasti-part{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 100%;
+    background: url(../images/team-banner.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#tasti-part .bor{
+    position: relative;
+}
+#tasti-part .lin{
+    width: 1px;
+    height: 530px;
+    background: url(../images/line.png);
+    position: absolute;
+    top: -57px;
+    left: 50%;
+    transform: translateX(50%);
+}
+#tasti-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.5);
+    padding: 196px;
+}
+#tasti-part .overlay .round{
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    margin: 20px auto ;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+}
+#tasti-part .overlay .round img{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+#tasti-part .overlay .round .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+}
+#tasti-part .overlay .slick-center .round{
+    background: #fec600;
+    transform: scale(1.2);
+
+}
+#tasti-part .overlay .slick-center .overlay{
+    opacity: 0;
+}
+#tasti-part .overlay .prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: -89px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all linear .4s;
+}
+#tasti-part .overlay .next{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all linear .4s;
+}
+#tasti-part .overlay .med{
+    display: flex;
+    align-items: center;
+}
+#tasti-part .overlay .text-box{
+    width: 800px;
+    height: 300px;
+    background: #f1f1f1;
+    position: relative;
+}
+#tasti-part .overlay .text-box .shape{
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+#tasti-part .overlay .text-box .item{
+    padding: 40px 20px;
+    position: relative;
+    padding: 30px;
+}
+#tasti-part .overlay .text-box .item h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2f2f2f;
+}
+#tasti-part .overlay .text-box .item i{
+    color: #fec600;
+}
+#tasti-part .overlay .text-box .item h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #646464;
+}
+#tasti-part .overlay .text-box .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+    margin-top: 30px;
+    
+}
+#tasti-part .overlay .text-box .item img{
+    position: absolute;
+    top: 94%;
+    right: 10%;
+}
+/* =======================================
+       tastimonial end
+========================================== */
+/* =======================================
+       tastimonial-bottom start
+========================================== */
+#tastimonial-bottom{
+	background: #fff;
+	height: 200px;
+	transform: skewx(-86deg);
+	transform-origin: left bottom;
+	position: relative;
+	top: -260px;
+}
+/* =======================================
+       tastimonial-bottom end
+   ======================================= */
+
+/* =======================================
+      pricing start
+========================================== */
+#pricing-part{
+    margin-top: -191px;
+}
+#pricing-part .price{
+    background: #f1f1f1;
+    justify-content: space-between;
+    text-align: center;
+}
+#pricing-part .top{
+    width: 100%;
+    height: 137px;
+    background: #353535;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    transition: .4s;
+    
+}
+#pricing-part .top h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 30px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+#pricing-part .list{
+    position: relative;
+
+}
+#pricing-part .list ul{
+    padding-left: 0;
+    padding-top: 70px;
+    
+}
+#pricing-part .list li{
+    padding-bottom: 20px;
+}
+#pricing-part .list .round{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#pricing-part .list .border-round{
+    width: 90px;
+    height: 90px;
+    background: #353535;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#pricing-part .list .border-round h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 15px;
+}
+#pricing-part .list .border-round p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
+#pricing-part .bottom{
+    width: 100%;
+    height: 81px;
+    background: #353535;
+    clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0% 100%);
+    transition: .4s;
+}
+#pricing-part .bottom a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 40px;
+    transition: .4s;
+}
+#pricing-part .price:hover .top{
+    background: #fec600;
+    
+}
+#pricing-part .price:hover .top h3{
+    color: #000;
+}
+#pricing-part .price:hover .list .border-round{
+    background: #fec600;
+}
+#pricing-part .price:hover .list .round{
+    border: #fec600;
+}
+#pricing-part .price:hover .bottom{
+    background: #fec600;
+}
+#pricing-part .price:hover .bottom a{
+    color: #000;
+}
+/* =======================================
+      pricing end
+========================================== */
+/* =======================================
+      counter-top start
+========================================== */
+#counter-top{
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: -54px;
+
+}
+/* =======================================
+      counter-top end
+========================================== */
+/* =======================================
+      counter start
+========================================== */
+#counter-part{
+    margin-top: -144px;
+    background: url(../images/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#counter-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    padding: 90px 0;
+}
+#counter-part .overlay .item{
+    padding: 17px 0;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+#counter-part .overlay .baka{
+    transform: rotate(-5deg);
+}
+#counter-part .overlay .baka h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+#counter-part .overlay .baka p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* =======================================
+      counter end
+========================================== */
+/* =======================================
+      counter-bottom start
+========================================== */
+#counter-bottom{
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: left bottom;
+    position: relative;
+    bottom: 200px;
+
+}
+/* =======================================
+      counter-bottom end
+========================================== */
+
+/* =======================================
+          team start
+========================================== */
+#team-part{
+    margin-top: -140px;
+}
+#team-part .item{
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+#team-part .item .img{
+    position: relative;
+    padding: 0 20px;
+    background: #f1f1f1;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+}
+#team-part .item .img img{ 
+    width: 100%;
+}
+#team-part .item .img .overlay{
+    width: 100%;
+    height: 0%;
+    background:rgba(254, 198, 0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+}
+#team-part .item:hover .img .overlay{
+    height: 100%;
+}
+#team-part .item .img .overlay a{
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: .4s;
+    transform: translate(-50%,-50%);
+}
+#team-part .item:hover .img .overlay a{
+    opacity: 1;
+}
+#team-part .item .text{
+    text-align: center;
+    padding-top: -14px;
+}
+#team-part .item .text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+#team-part .item .text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5c5c5c;
+}
+#team-part .item .text ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    transition: .4s;
+}
+#team-part .item:hover .text ul{
+    padding-top:50px;
+}
+#team-part .item .text ul li{
+    padding: 0 10px;
+}
+#team-part .item .text ul li a{
+    width: 35px;
+    height: 35px;
+    color: #000;
+    border: 1px solid #000;
+    background: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .4s;
+}
+#team-part .item .text ul li a:hover{
+    background: #fec600;
+    border-color: #fec600;
+}
+#team-part .item:hover .text ul li a{
+    opacity: 1;
+}
+/* =======================================
+           team end
+========================================== */
+
+/* =======================================
+      logo-top start
+========================================== */
+#logo-top{
+    background: #fff;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: right top;
+    position: relative;
+    bottom: -83px;
+
+}
+/* =======================================
+      logo-top end
+========================================== */
+/* =======================================
+      logo start
+========================================== */
+#logo-part{
+    margin-top: -122px;
+    background: #f1f1f1;
+    padding: 100px 0;
+}
+
+#logo-part .item{
+    padding: 40px 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    margin: 20px;
+}
+#logo-part .slick-center{
+    border: 1px solid #fec600;
+}
+#logo-part .item img{
+    justify-content: center;
+}
+#logo-part .baka{
+    transform: rotate(-5deg);
+}
+/* =======================================
+      logo end
+========================================== */
+/* =======================================
+      logo-bottom start
+========================================== */
+#logo-bottom{
+    background: #000;
+    height: 200px;
+    transform: skewX(-86deg);
+    transform-origin: left bottom;
+    position: relative;
+    bottom: 200px;
+
+}
+/* =======================================
+      logo-bottom end
+========================================== */
+
+/* =======================================
+      footer start
+========================================== */
+#footer{
+    margin-top: -200px;
+    background: #000;
+    
+}
+#footer .img{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-4deg);
+}
+#footer .img img{
+    transform: rotate(4deg);
+}
+#footer .details{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    
+}
+#footer .details .bor{
+    padding: 35px;
+    border-left: 1px solid rgba(241, 241, 241, 0.719);
+}
+#footer .details .bor:first-child{
+    border-left:0;
+}
+
+#footer .details a{
+    width: 40px;
+    height: 40px;
+    background: #fec600;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 20px;
+}
+#footer .details p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+#footer .details h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 50px;
+}
+#footer .details ul{
+    display: flex;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+#footer .details ul li {
+    justify-content: center;
+    margin-left: 20px;
+}
+#footer .details ul li a{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    transition: .4s;
+}
+#footer .details ul li a:hover{
+    background: #fec600;
+}
+#footer .details h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* =======================================
+      footer end
+========================================== */
+.backtotop{
+    display: inline-block;
+    padding: 20px;
+    background: #fec600;
+    color: #000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 0;
+}
+/* =======================================
+       end start
+========================================== */
+#end-part{
+    background: #353535;
+    text-align: center;
+}
+#end-part p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    color: #fff;
+}
+#end-part p a{
+    color: #fec600;
+}
+
+/* =======================================
+       end 
+========================================== */

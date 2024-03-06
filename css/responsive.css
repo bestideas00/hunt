@@ -1,0 +1,1052 @@
+@media (min-width:320px) and (max-width:575.98px){
+    .title p {
+        width: auto;
+    }
+    /* ============ nav start ================ */
+    nav ul{
+        background: #000;
+    }
+    nav button i{
+        color: #fff;
+        font-size: 20px;
+    }
+    nav ul{
+        margin-top: 10px;
+        text-align: center;
+    }
+    nav ul li{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    nav ul li a:hover:after {
+        width: 0;
+    }
+    nav img{
+        margin-right: auto;
+    }
+    /* ============== nav end ================ */
+
+    /* ============= banner start ============== */
+    #banner-part {
+        margin-top: -38px;
+    }
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 136px;
+        padding-bottom:79px ;
+    }
+    #banner-part .banner-slider .banner .overlay h3 {
+        font-size: 30px;
+    }
+    #banner-part .banner-slider .banner .overlay h1 {
+        font-size: 49px;
+    }
+    #banner-part .banner-slider .banner .overlay p {
+        width: auto;
+    }
+    
+    #banner-bottom {
+        display: none;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #fba333;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fba333;
+    }
+
+    /* ============= banner end ============= */
+    /* ============= about start ============= */
+    #about-part {
+        margin-top: 24px;
+    }
+    
+    #about-part .item-round {
+        display: none;
+    }
+    
+    #about-part .item{
+        margin-bottom: 10px;
+        bottom: 0;
+    }
+    #about-part .item .shape {
+        display: none;
+    }
+    #about-part .item i {
+        display: none;
+    }
+    #about-part .item3{
+        margin-right: 0;
+        margin-bottom: 10px;
+        left: 0;
+    }
+    #about-part .item3 .shape3 {
+        display: none;
+    }
+    #about-part .item3 p {
+        text-align: center;
+    }
+    #about-part .item3 h3 {
+        text-align: center;
+    }
+    #about-part .item3 i {
+        display: none;
+    }
+    #about-part .item4 {
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        left: 0;
+    }
+    #about-part .item4 .shape4 {
+        display: none;
+    }
+    #about-part .item4 i {
+        display: none;
+    }
+    #about-part .item2 {
+        top: 0;
+    }
+    #about-part .item2 .shape {
+        display: none;
+    }
+    #about-part .item2 i {
+        display: none;
+    }
+    /* ============= about end ============= */
+    /* ============= servic start ============= */
+    #service-part .service-slider {
+        margin-top: 81px;
+        margin-bottom: 99px;
+    }
+    #service-part .line {
+        display: none;
+    }
+    #service-part .service .shape{
+        display: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+        border: 1px solid #f1f1f1;
+    }
+    #service-part .service:nth-child(odd) {
+        flex-direction: column;
+    }
+    #service-part .service .details {
+        width: 100%;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+        background: #f1f1f1;
+        padding: 15px;
+    }
+    #service-part .service .img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .prev {
+        top: -69px;
+    }
+    #service-part .next {
+        bottom: -75px;
+    }
+    /* ============= servic end ============= */
+    /* ============= tastimonial start ============= */
+    #tastimonial-top {
+        display: none;
+    }
+    #tasti-part {
+        margin-top:0px;
+    }
+    #tasti-part .lin {
+        display: none;
+    }
+    #tasti-part .overlay .text-box .shape {
+        display: none;
+    }
+    #tastimonial-bottom {
+        display: none;
+    }
+    #tasti-part .overlay .text-box {
+        width: 100%;
+        height: 412px;
+        bottom: -117px;
+    }
+    #tasti-part .overlay {
+        padding: 196px 0;
+    }
+    /* ============= tastimonial end ============= */
+
+    /* ============= portfolio start ============= */
+    #portfolio-top {
+        display: none;
+    }
+    #portfolio-part {
+        margin-top: 19px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+    #portfolio-part .title p {
+        width: auto;
+    }
+    #portfolio-bottom {
+        display: none;
+    }
+    #service-part {
+        margin-top: 30px;
+    }
+    /* ============= portfolio end ============= */
+    /* ============= price start ============= */
+    #pricing-part .price {
+        margin-bottom: 10px;
+    }
+    #pricing-part {
+        margin-top: -24px;
+    }
+    /* ============= price end ============= */
+    /* ============= counter start ============= */
+    #counter-top {
+        display: none;
+    }
+    #counter-part {
+        margin-top: 10px;
+        
+    }
+    #counter-part .overlay .baka {
+        transform: rotate(0);
+    }
+    #counter-part .overlay .baka p {
+        font-size: 14px;
+    }
+    #counter-bottom {
+        display: none;
+    }
+    /* ============= counter end ============= */
+    /* ============= team start ============= */
+    #team-part {
+        margin-top: 23px;
+    }
+    /* ============= team end ============= */
+    /* ============= logo start ============= */
+    #logo-top {
+        display: none;
+    }
+    #logo-part {
+        margin-top: 30px;
+        padding: 50px 0;
+    }
+    #logo-part .baka {
+        transform: rotate(0);
+    }
+
+    /* ============= logo end ============= */
+    /* ============= footer start ============= */
+    #footer .details .bor {
+        border-left: 0px solid #fff;
+    }
+    #footer .details p {
+        margin-bottom: 20px;
+    }
+    #footer .details ul {
+        margin-left:0;
+    }
+    #footer .details ul li {
+        margin-left: 13px;
+    }
+    #footer .details h3 {
+        margin-top: 9px;
+    }
+    #footer .details {
+        padding: 27px;
+        margin-top: 27px;
+    }
+    #footer .details .bor {
+        padding:0;
+    }
+    /* ============= footer end ============= */
+    /* ============= end start ============= */
+    
+    #end-part p {
+        font-size: 13px;
+    }
+    /* ============= end  ============= */ 
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .title p {
+        width: auto;
+    }
+    /* ============ nav start ================ */
+    nav button i{
+        color: #fff;
+        font-size: 20px;
+    }
+    nav ul{
+        margin-top: 10px;
+        text-align: center;
+        background: #000;
+    }
+    nav ul li{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    nav ul li a:hover:after {
+        width: 0;
+    }
+    nav img{
+        margin-right: auto;
+    }
+    /* ============== nav end ================ */
+
+    /* ============= banner start ============== */
+    #banner-part {
+        margin-top: -20px;
+    }
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 136px;
+        padding-bottom:79px ;
+    }
+    #banner-part .banner-slider .banner .overlay h3 {
+        font-size: 30px;
+    }
+    #banner-part .banner-slider .banner .overlay h1 {
+        font-size: 49px;
+    }
+    #banner-part .banner-slider .banner .overlay p {
+        width: auto;
+    }
+    
+    #banner-bottom {
+        display: none;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #fba333;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fba333;
+    }
+
+    /* ============= banner end ============= */
+    /* ============= about start ============= */
+    #about-part {
+        margin-top: 24px;
+    }
+    #about-part .item{
+        margin-bottom: 10px;
+        bottom: 0;
+    }
+    
+    #about-part .item-round {
+        margin-left: 15%;
+    }
+    #about-part .item .shape {
+        display: none;
+    }
+    #about-part .item i {
+        display: none;
+    }
+    #about-part .item3{
+        margin-right: 0;
+        margin-bottom: 10px;
+        left: 0;
+    }
+    #about-part .item3 .shape3 {
+        display: none;
+    }
+    #about-part .item3 p {
+        text-align: center;
+    }
+    #about-part .item3 h3 {
+        text-align: center;
+    }
+    #about-part .item3 i {
+        display: none;
+    }
+    #about-part .item4 {
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        left: 0;
+        top: 8px;
+    }
+    #about-part .item4 .shape4 {
+        display: none;
+    }
+    #about-part .item4 i {
+        display: none;
+    }
+    #about-part .item2{
+        top: 11px;
+    }
+    #about-part .item2 .shape {
+        display: none;
+    }
+    #about-part .item2 i {
+        display: none;
+    }
+    /* ============= about end ============= */
+    /* ============= servic start ============= */
+    #service-part .line {
+        display: none;
+    }
+    #service-part .service .shape{
+        display: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+        border: 1px solid #f1f1f1;
+    }
+    #service-part .service:nth-child(odd) {
+        flex-direction: column;
+    }
+    #service-part .service .details {
+        width: 100%;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+        background: #f1f1f1;
+        padding: 15px;
+    }
+    #service-part .service .img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .prev {
+        top: -69px;
+    }
+    #service-part .next {
+        bottom: -75px;
+    }
+    /* ============= servic end ============= */
+    /* ============= tastimonial start ============= */
+    #tastimonial-top {
+        display: none;
+    }
+    #tasti-part {
+        margin-top: 122px;
+    }
+    #tasti-part .lin {
+        display: none;
+    }
+    #tastimonial-bottom {
+        display: none;
+    }
+    /* ============= tastimonial end ============= */
+
+    /* ============= portfolio start ============= */
+    #portfolio-top {
+        display: none;
+    }
+    #portfolio-part {
+        margin-top: 19px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+    #portfolio-part .title p {
+        width: auto;
+    }
+    #portfolio-bottom {
+        display: none;
+    }
+    #service-part {
+        margin-top: 30px;
+    }
+    /* ============= portfolio end ============= */
+    /* ============= tasti start ============= */
+    #tasti-part .overlay {
+        padding: 126px 0;
+    }
+    #tasti-part .overlay .text-box {
+        width: 100%;
+        top: 105px;
+    }
+    #tasti-part .overlay .text-box .item p {
+        width: auto;
+    }
+    #tasti-part .overlay .text-box .shape {
+        display: none;
+    }
+    /* ============= tasti end ============= */
+
+    /* ============= price start ============= */
+    #pricing-part .price {
+        margin-bottom: 10px;
+    }
+    #pricing-part {
+        margin-top: -25px;
+    }
+    /* ============= price end ============= */
+    /* ============= counter start ============= */
+    #counter-top {
+        display: none;
+    }
+    #counter-part {
+        margin-top: 10px;
+        
+    }
+    #counter-part .overlay .baka {
+        transform: rotate(0);
+    }
+    #counter-part .overlay .baka p {
+        font-size: 17px;
+    }
+    #counter-bottom {
+        display: none;
+    }
+    /* ============= counter end ============= */
+    /* ============= team start ============= */
+    #team-part {
+        margin-top: 23px;
+    }
+    /* ============= team end ============= */
+    /* ============= logo start ============= */
+    #logo-top {
+        display: none;
+    }
+    #logo-part {
+        margin-top: 30px;
+        padding: 50px 0;
+    }
+    #logo-part .baka {
+        transform: rotate(0);
+    }
+
+    /* ============= logo end ============= */
+    /* ============= footer start ============= */
+    #footer .details .bor {
+        border-left:none;
+        display: flex;
+        padding: 15px 0;
+        margin-left: 60px;
+    }
+    #footer .details p {
+        width: 284px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    #footer .details h3 {
+        margin-top: 9px;
+    }
+    #footer .details {
+        padding: 27px;
+    }
+    #footer .details ul {
+        margin-left: 23%;
+    }
+    #footer .details {
+        margin-top: -7px;
+        
+    }
+    /* ============= footer end ============= */
+    /* ============= end start ============= */
+    
+    #end-part p {
+        font-size: 13px;
+    }
+    
+    
+    /* ============= end  ============= */  
+}
+@media (min-width:768px) and (max-width:991.98px){
+    
+    /* ============ nav start ================ */
+    nav button i{
+        color: #fff;
+        font-size: 20px;
+    }
+    nav ul{
+        margin-top: 10px;
+        text-align: center;
+        background: #000;
+    }
+    nav ul li{
+        margin-right: 0px;
+        margin-left: 19px;
+    }
+    nav img{
+        margin-right: auto;
+    }
+    /* ============== nav end ================ */
+
+    /* ============= banner start ============== */
+    #banner-part {
+        margin-top: -21px;
+    }
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 136px;
+        padding-bottom:79px ;
+    }
+    #banner-part .banner-slider .banner .overlay h3 {
+        font-size: 30px;
+    }
+    #banner-part .banner-slider .banner .overlay h1 {
+        font-size: 49px;
+    }
+    #banner-part .banner-slider .banner .overlay p {
+        width: auto;
+    }
+    
+    #banner-bottom {
+        display: none;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #fba333;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fba333;
+    }
+
+    /* ============= banner end ============= */
+    /* ============= about start ============= */
+    #about-part {
+        margin-top: 24px;
+    }
+    #about-part .item{
+        margin-bottom: 10px;
+        bottom: 0;
+    }
+    #about-part .item-round {
+        width: 201px;
+        height: 201px;
+        margin: 29px auto;
+    }
+    #about-part .item-round .img {
+        width: 139px;
+        height: 139px;
+    }
+    #about-part .item3{
+        margin-right: 0;
+        margin-bottom: 10px;
+        left: -10px;
+    }
+    #about-part .item3 p {
+        text-align: center;
+    }
+    #about-part .item3 h3 {
+        text-align: center;
+    }
+     #about-part .item4 {
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        left: 10px;
+        top: 8px;
+    } 
+    #about-part .item2{
+        top: 1px;
+    }
+    /* ============= about end ============= */
+    /* ============= servic start ============= */
+    #service-part {
+        margin-top: -140px;
+    }
+    #service-part .line {
+        display: none;
+    }
+    #service-part .prev {
+        top: -61px;
+    }
+    #service-part .next {
+        bottom: -87px;
+    }
+    #service-part .slick-center .img .round {
+        transform: scale(1.2);
+    }
+    /* ============= servic end ============= */
+    /* ============= tastimonial start ============= */
+    #tastimonial-top {
+        display: none;
+    }
+    #tasti-part .overlay {
+        padding: 139px 0;
+    }
+    #tasti-part .overlay .text-box {
+        width: 100%;
+        top: 108px;
+    }
+    #tasti-part .overlay .text-box .item p {
+        width: auto;
+    }
+    #tasti-part .overlay .text-box .shape {
+        display: none;
+    }
+    #tasti-part {
+        margin-top: 122px;
+    }
+    #tasti-part .lin {
+        display: none;
+    }
+    #tastimonial-bottom {
+        display: none;
+    }
+    /* ============= tastimonial end ============= */
+
+    /* ============= portfolio start ============= */
+    #portfolio-top {
+        bottom: -108px;
+    }
+    
+    #portfolio-part {
+        margin-top: -91px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+    
+    /* ============= portfolio end ============= */
+    /* ============= price start ============= */
+    #pricing-part {
+        margin-top: -13px;
+    }
+    #pricing-part .price {
+        margin-bottom: 10px;
+    }
+    /* ============= price end ============= */
+    /* ============= counter start ============= */
+    #counter-part {
+        margin-top: -147px;
+    }
+    #counter-part .overlay .baka {
+        transform: rotate(0);
+    }
+    #counter-part .overlay .baka p {
+        font-size: 15px;
+    }
+    /* ============= counter end ============= */
+    /* ============= team start ============= */
+    #team-part {
+        margin-top: -134px;
+    }
+    /* ============= team end ============= */
+    /* ============= logo start ============= */
+    #logo-top {
+        bottom: -30px;
+    }
+    #logo-part {
+        margin-top: -171px;
+        padding: 50px 0;
+    }
+    #logo-part .baka {
+        transform: rotate(0);
+    }
+    /* ============= logo end ============= */
+    /* ============= footer start ============= */
+    #footer .details .bor {
+        border-left:none;
+        display: flex;
+        padding: 15px 0;
+        margin-left: 60px;
+    }
+    #footer .details p {
+        width: 284px;
+        margin-bottom: 20px;
+    }
+    #footer .details h3 {
+        margin-top: 9px;
+    }
+    #footer .details {
+        padding: 27px;
+    }
+    #footer .details ul {
+        margin-left: 23%;
+    }
+    #footer .details {
+        margin-top: -7px;
+    }
+    #footer .details .bor {
+        margin-left: 196px;
+    }
+
+    /* ============= footer end ============= */
+    /* ============= end start ============= */
+    
+    #end-part p {
+        font-size: 13px;
+    }
+    
+    /* ============= end  ============= */
+    
+
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+    /* ============ nav start ================ */
+    nav button i{
+        color: #fff;
+        font-size: 20px;
+    }
+    nav ul{
+        margin-top: 10px;
+        text-align: center;
+    }
+    nav ul li{
+        margin-right: 0px;
+        margin-left: 19px;
+    }
+    nav img{
+        margin-right: auto;
+    }
+    nav ul li a::after {
+        bottom: -11px;
+    }
+    /* ============== nav end ================ */
+
+    /* ============= banner start ============== */
+    #banner-part {
+        margin-top: -25px;
+    }
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 136px;
+        padding-bottom:79px ;
+    }
+    #banner-part .banner-slider .banner .overlay h3 {
+        font-size: 30px;
+    }
+    #banner-part .banner-slider .banner .overlay h1 {
+        font-size: 49px;
+    }
+    #banner-bottom {
+        display: none;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #fba333;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fba333;
+    }
+    #banner-part .prev {
+        top: 51%;
+    }
+    #banner-part .next {
+        top: 51%;
+    }
+
+    /* ============= banner end ============= */
+    /* ============= about start ============= */
+    
+    #about-part {
+        margin-top: 24px;
+    }
+    #about-part .item-round {
+        width: 270px;
+        height: 270px;
+    }
+    
+    #about-part .item-round .img {
+        width: 200px;
+        height: 200px;
+    }
+    #about-part .item4 p {
+        font-size: 13px;
+    }
+    #about-part .item3 p {
+        font-size: 13px;
+    }
+    #about-part .item2 p {
+        font-size: 13px;
+    }
+    #about-part .item1 p {
+        font-size: 13px;
+    }
+    #about-part .item4 h3 {
+        font-size: 16px;
+    }
+    #about-part .item1 h3 {
+        font-size: 16px;
+    }
+    #about-part .item2 h3 {
+        font-size: 16px;
+    }
+    #about-part .item3 {
+        left: 13px;
+    }
+    #about-part .item3 h3 {
+        font-size: 16px;
+    }
+    #about-part .item {
+        padding: 26px 10px;
+    }
+    #about-part .item2 {
+        padding: 26px 10px;
+    }
+    #about-part .item3 {
+        padding: 26px 10px;
+    }
+    #about-part .item4 {
+        padding: 26px 10px;
+    }
+    #about-part .item4 i {
+        left: -60px;
+    }
+    #about-part .item4 {
+        margin-left: -9px;
+    }
+
+    /* ============= about end ============= */
+    /* ============= servic start ============= */
+    #service-part {
+        margin-top: -140px;
+    }
+    #service-part .line {
+        display: none;
+    }
+    #service-part .prev {
+        top: -61px;
+    }
+    #service-part .next {
+        bottom: -87px;
+    }
+    #service-part .slick-center .img .round {
+        transform: scale(1.2);
+    }
+    /* ============= servic end ============= */
+    /* ============= tastimonial start ============= */
+    
+    #tasti-part {
+        margin-top: 37px;
+    }
+    
+    
+    /* ============= tastimonial end ============= */
+
+    /* ============= portfolio start ============= */
+    #portfolio-top {
+        bottom: -108px;
+    }
+    
+    #portfolio-part {
+        margin-top: -91px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+    
+    #tasti-part .overlay .text-box {
+        width: 553px;
+    }
+    /* ============= portfolio end ============= */
+    /* ============= price start ============= */
+    #pricing-part .price {
+        margin-bottom: 10px;
+    }
+    /* ============= price end ============= */
+    /* ============= counter start ============= */
+    #counter-part {
+        margin-top: -147px;
+    }
+    #counter-part .overlay .baka {
+        transform: rotate(0);
+    }
+    #counter-part .overlay .baka p {
+        font-size: 15px;
+    }
+    /* ============= counter end ============= */
+    /* ============= team start ============= */
+    #team-part {
+        margin-top: -134px;
+    }
+    /* ============= team end ============= */
+    /* ============= logo start ============= */
+    
+    #logo-part {
+        margin-top: 49px;
+        padding: 50px 0;
+    }
+    
+    #logo-top {
+        bottom: -82px;
+    }
+    #logo-part {
+        margin-top: -121px;
+    }
+
+
+    /* ============= logo end ============= */
+    /* ============= footer start ============= */
+    
+    #footer .details ul {
+        margin-left: 31%;
+    }
+    /* ============= footer end ============= */
+    /* ============= end start ============= */
+    
+    #end-part p {
+        font-size: 13px;
+    }
+    
+    /* ============= end  ============= */
+    
+
+    
+}
